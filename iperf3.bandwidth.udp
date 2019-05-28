@@ -1,3 +1,4 @@
+#!/bin/bash
 # Server end
 iperf3 -s --format M --bind interface.ip.address.server
 

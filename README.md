@@ -3,6 +3,7 @@ Some useful network performance testing methods by iperf3
 
 # Contents
 1) iperf3.bandwidth.udp is the useful commands to launch a UDP transfer test. 
+2) iperf3.bandwidth.tcp is the useful commands to lanuch a TCP transfer test.
 
 # How to use
 Exceute the command syntax based on your need(s).

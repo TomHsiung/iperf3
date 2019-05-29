@@ -1,0 +1,7 @@
+#!/bin/bash
+# Server end
+iperf3 -s --format M --bind interface.ip.address.server
+
+# Client end
+iperf3 -c interface.ip.address.server --time 10 --bandwidth 50M --format M --set-mss 1360
+iperf3 -c interface.ip.address.server --time 10 --bandwidth 50M --format M --set-mss 1360 --reverse

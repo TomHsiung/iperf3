@@ -1,4 +1,4 @@
-# iperf3
+# network.performance.iperf3
 Some useful network performance testing methods by iperf3
 
 # Contents

@@ -4,4 +4,4 @@ iperf3 -s --format M --bind interface.ip.address.server
 
 # Client end
 iperf3 -c interface.ip.address.server --time 10 --length 1360 --bandwidth 50M --format M --udp
-iperf3 -c interface.ip.address.server --time 10 --length 1360 --bandwidth 50M --format M --udp -R
+iperf3 -c interface.ip.address.server --time 10 --length 1360 --bandwidth 50M --format M --udp --reverse

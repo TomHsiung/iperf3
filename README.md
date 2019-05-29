@@ -16,6 +16,8 @@ Exceute the command syntax based on your need(s).
 
 --time: time in seconds to transmit for (default 10 secs)  
 
+--set-mss: set TCP/SCTP maximum segment size (MTU - 40 bytes)  
+
 --length: data size in bytes for UDP packets  
 
 --bandwidth: target bandwidth in bits/sec (0 for unlimited)  
@@ -26,4 +28,6 @@ Exceute the command syntax based on your need(s).
 
 --udp: use UDP rather than TCP  
 
---reverse: run in reverse mode (server sends, client receives)
+--reverse: run in reverse mode (server sends, client receives)  
+
+--help: show the help information of iperf3

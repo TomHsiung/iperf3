@@ -1,5 +1,5 @@
 # iperf3
-Some useful network performance testing methods
+Some useful network performance testing methods by iperf3
 
 # Contents
 1) iperf3.bandwidth.udp is the useful commands to launch a UDP transfer test. 
@@ -25,3 +25,5 @@ Exceute the command syntax based on your need(s).
 --format: format to report: Kbits, Mbits, KBytes, MBytes [kmgKMG]  
 
 --udp: use UDP rather than TCP  
+
+--reverse: run in reverse mode (server sends, client receives)

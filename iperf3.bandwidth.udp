@@ -3,5 +3,5 @@
 iperf3 -s --format M --port server.listening.port.number --bind interface.ip.address.server
 
 # Client end
-iperf3 -c interface.ip.address.server --time 10 --length 1360 --bandwidth 50M --format M --udp
-iperf3 -c interface.ip.address.server --time 10 --length 1360 --bandwidth 50M --format M --udp --reverse
+iperf3 -c interface.ip.address.server --port server.listening.port.number --cport client.port.number --time 10 --length 1360 --bandwidth 50M --format M --udp
+iperf3 -c interface.ip.address.server --port server.listening.port.number --cport client.port.number --time 10 --length 1360 --bandwidth 50M --format M --udp --reverse

@@ -2,6 +2,6 @@
 # Server end
 iperf3 -s --format M --port server.listening.port.number --bind interface.ip.address.server
 
-# Client end
-iperf3 -c interface.ip.address.server --port server.listening.port.number --cport client.port.number --time 10 --bandwidth 50M --format M --set-mss 1360
-iperf3 -c interface.ip.address.server --port server.listening.port.number --cport client.port.number --time 10 --bandwidth 50M --format M --set-mss 1360 --reverse
+# Client end (--cport has to be along with --bind)
+iperf3 -c interface.ip.address.server --port server.listening.port.number --bind interface.ip.address.client --cport client.port.number --time 10 --bandwidth 50M --format M --set-mss 1360
+iperf3 -c interface.ip.address.server --port server.listening.port.number --bind interface.ip.address.client --cport client.port.number --time 10 --bandwidth 50M --format M --set-mss 1360 --reverse
